@@ -273,8 +273,16 @@ img {
     margin-top: 40px;
 }
 
+@media only screen and (max-width: 768px) {
+    .triple-img-container{
+        padding-top: 20px
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .hero-text h1{
         font-size:1.7rem;
       }
+    
+      
   }
