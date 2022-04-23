@@ -187,7 +187,7 @@ img {
     padding: 2rem;
 }
 
-.contact-btn{
+.contact-btn button{
     border: none;
     outline: 0;
     display: inline-block;
@@ -200,6 +200,18 @@ img {
     /* letter-spacing: 5px; */
     border-radius: 5px;
 }
+
+.contact-btn{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'DM Sans',sans-serif;
+    /* letter-spacing: 5px; */
+    border-radius: 5px;
+}
+
 
 .contact-btn:hover{
     color: white;
@@ -219,7 +231,47 @@ img {
     height: 315px;
 }
 
+.inline-heading{
+    color:rgb(56 116 145);
+    font-weight:600;
+    font-size: 1.7rem;
+    display: inline;
+}
 
+.inline-text{
+    display: inline;
+}
+
+.block-of-text{
+    display: block;
+    text-align: left;
+}
+
+.pushed-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+.link a{
+    color: white;
+}
+
+.link a:hover{
+    color: rgb(200, 199, 199);
+}
+
+.sm-centered-logo{
+    width: 500px;
+    margin: auto;
+}
+
+.sm-centered-logo img{
+    width: 100%;
+}
+
+.space-above{
+    margin-top: 40px;
+}
 
 @media only screen and (max-width: 600px) {
     .hero-text h1{
