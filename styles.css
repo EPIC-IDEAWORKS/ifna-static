@@ -188,9 +188,12 @@ img {
 }
 
 .contact-btn{
-    text-decoration: none;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
     color: black;
-    background-color: transparent;
+    background-color: #ddd;
     text-align: center;
     cursor: pointer;
     font-family: 'DM Sans',sans-serif;
