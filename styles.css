@@ -4,8 +4,8 @@
     padding: 0;
     border: 0;
     outline: 0;
-    
-    
+
+
   } */
   *, ::after, ::before {
     box-sizing: border-box;
@@ -17,17 +17,18 @@
     font-family: 'DM Sans',sans-serif;
     /* letter-spacing: 5px; */
   }
-  
+
   .hero-image {
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imgs/derek-sutton-uouH1bGxeeU-unsplash\ \(1\).jpg"); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(36 68 83)), url(./imgs/derek-sutton-uouH1bGxeeU-unsplash\ \(1\).jpg);
-    height: 50%;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(36 68 83)), url(./imgs/photos/derek-sutton-uouH1bGxeeU-unsplash\ \(1\).jpg); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(36 68 83)), url(./imgs/photos/pk_aerialshot2\ \(1\).jpg);
+    height: 40%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
   }
-  
+
   .hero-text {
     text-align: center;
     position: absolute;
@@ -35,13 +36,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    
+
   }
 
   .hero-text h1{
     font-size:4rem;
   }
-  
+
   .hero-text button {
     border: none;
     outline: 0;
@@ -55,7 +56,7 @@
     /* letter-spacing: 5px; */
     border-radius: 5px;
   }
-  
+
   .hero-text button:hover {
     background-color: #555;
     color: white;
@@ -79,12 +80,18 @@ padding: 2px 16px;
 
 .screen-shot img{
     width: 100%;
-    
+
 }
 
 .benefit-headings{
     color:rgb(56 116 145);
     text-align: center;
+}
+
+.required-headings
+{
+    color:rgb(56 116 145);
+    text-align: left;
 }
 
 .display-width-container{
@@ -149,6 +156,12 @@ padding: 2px 16px;
 .img-fluid {
     max-width: 100%;
     height: auto;
+}
+
+.img-reduced {
+    max-width: 60%;
+    height: auto;
+    text-align: center;
 }
 
 .screenshot-img-left {
