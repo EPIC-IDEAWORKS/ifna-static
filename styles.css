@@ -22,7 +22,7 @@
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imgs/derek-sutton-uouH1bGxeeU-unsplash\ \(1\).jpg"); */
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(36 68 83)), url(./imgs/photos/derek-sutton-uouH1bGxeeU-unsplash\ \(1\).jpg); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(36 68 83)), url(./imgs/Photos/pk_aerialshot2\ \(1\).JPG);
-    height: 40%;
+    height: 30%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,7 +40,7 @@
   }
 
   .hero-text h1{
-    font-size:4rem;
+    font-size:3rem;
   }
 
   .hero-text button {
