@@ -234,7 +234,7 @@ img {
 .inline-heading{
     color:rgb(56 116 145);
     font-weight:600;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     display: inline;
 }
 
@@ -266,7 +266,7 @@ img {
 }
 
 .sm-centered-logo img{
-    width: 100%;
+    width: 120%;
 }
 
 .space-above{
