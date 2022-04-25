@@ -22,7 +22,7 @@
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imgs/derek-sutton-uouH1bGxeeU-unsplash\ \(1\).jpg"); */
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(36 68 83)), url(./imgs/photos/derek-sutton-uouH1bGxeeU-unsplash\ \(1\).jpg); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(36 68 83)), url(./imgs/Photos/pk_aerialshot2\ \(1\).JPG);
-    height: 30%;
+    height: 40%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,7 +40,7 @@
   }
 
   .hero-text h1{
-    font-size:3.5rem;
+    font-size:4rem;
   }
 
   .hero-text button {
@@ -159,7 +159,7 @@ padding: 2px 16px;
 }
 
 .img-reduced {
-    max-width: 60%;
+    max-width: 80%;
     height: auto;
     text-align: center;
 }
@@ -266,7 +266,7 @@ img {
 }
 
 .sm-centered-logo img{
-    width: 120%;
+    width: 100%;
 }
 
 .space-above{
