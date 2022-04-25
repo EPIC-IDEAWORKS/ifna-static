@@ -191,7 +191,7 @@ img {
     border: none;
     outline: 0;
     display: inline-block;
-    padding: 10px 25px;
+    padding: 15px 30px;
     color: black;
     background-color: #ddd;
     text-align: center;
@@ -234,7 +234,7 @@ img {
 .inline-heading{
     color:rgb(56 116 145);
     font-weight:600;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     display: inline;
 }
 
