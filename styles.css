@@ -244,14 +244,21 @@ img {
 
 .block-of-text{
     display: block;
-    text-align: left;
+    text-align: justify;
+}
+
+.block-of-text1{
+    display: block;
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
 }
 
 .pushed-center{
     max-width: 800px;
     margin: auto;
     justify-content: justify;
-text-align: justify;
+    text-align: justify;
 
 }
 
